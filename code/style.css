@@ -1,0 +1,53 @@
+.global-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #questionContainer {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    width: 50%;
+    position: relative;
+  }
+  
+  .btn-holder {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  #btnYes, #btnNo {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: static;
+  }
+
+  #btnNO:hover {
+    cursor: default;
+  }
+  
+  #popupMessage {
+    display: none;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: red;
+  }
+  
+  img {
+    margin: auto;
+    width: 50%;
+  }
+
+  body {
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
