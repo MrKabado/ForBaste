@@ -23,6 +23,6 @@ btnYes.addEventListener("click", () => {
   img.style.display = "block";
   btnNo.style.display = "none";
   btnYes.style.display = "none";
-  body.style.backgroundImage = "url('/code/bg.jpg')";
+  body.style.backgroundImage = "url('bg.jpg')";
   questionContainer.style.marginTop = "70%";
 });
